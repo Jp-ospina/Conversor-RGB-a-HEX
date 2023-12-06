@@ -1,0 +1,28 @@
+html {
+    background-color: black;  
+}
+
+h1 {
+    background-color: #2d3a44;
+    color: whitesmoke;
+    text-align: center;
+    height: max-content;
+    width: max-content;
+    padding: 80px 220px;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+body section {
+    background-color: rgba(190, 190, 125, 0.7);
+    color: black;
+    width: 200px;
+    height: 500px;
+    margin: 10px 40%;
+    padding: 20px 60px;
+    border-radius: 10px;
+    font-size: 20px;
+}

@@ -10,20 +10,30 @@
 <body>
     <h1>Conversor de colores</h1>
     <br><br>
-    <h2>Para convertir un color RGB a Hexadecimal</h2>
-    <br><br>
     <section>
-        <p>Coloque un número: </p><input type="number" id="R" placeholder="R">
-        <br>
-        <p>Coloque un número: </p><input type="number" id="G" placeholder="G">
-        <br>
-        <p>Coloque un número: </p><input type="number" id="B" placeholder="B">
+        <h2 class="title1">Para convertir un color RGB a Hexadecimal</h2>
         <br><br>
-        <input type="submit" value="Calcular" id="btn">
+        <div id="div1">
+            <p>Coloque un número: </p><input type="number" id="R" placeholder="R" class="boton">
+            <br>
+            <p>Coloque un número: </p><input type="number" id="G" placeholder="G" class="boton">
+            <br>
+            <p>Coloque un número: </p><input type="number" id="B" placeholder="B" class="boton">
+            <br><br>
+            <input type="submit" value="Calcular" id="btn" class="boton">
+            <br><br>
+            <p id="rta" onclick="click"></p>
+        </div>
         <br><br>
-        <input type="reset" value="Limpiar">
+        <h2 class="title2">Para convertir un color Hexadecimal a RGB</h2>
         <br><br>
-        <p id="rta" onclick="click"></p>
+        <div id="div2">
+            <p>Coloque un número Hexadecimal: </p><input type="text" id="hex" placeholder="Número" class="boton">
+            <br><br>
+            <input type="submit" value="Calcular" id="btnHex" class="boton">
+            <br><br><br><br><br>
+            <p id="rtaHex" onclick="click"></p>
+        </div>
     </section>
 </body>
 </html>
